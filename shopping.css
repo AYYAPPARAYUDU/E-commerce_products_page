@@ -1,0 +1,72 @@
+img{
+    width:400px;
+    height: 330px;
+}
+nav{
+    height: 80px;
+    background-color: wheat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: larger;
+    transition: background-color 1s;
+
+}
+a:hover{
+    background-color: aqua;
+    transition: 1sec;
+    
+}
+
+.container{
+    width: 420px;
+    height: 550px;
+    background-color: wheat;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+    position:relative;
+    box-shadow: 10px 10px 20px black;
+    transition: 1s;
+    
+    
+}
+.container:hover{
+    transform: scale(1.2);
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+button{
+    color: white;
+    background-color: black;
+    width: 110px;
+    padding: 10px;
+    font-weight: bolder;
+    display: inline;
+}
+.sale{
+    background-color: red;
+    width: 70px;;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    left: 10px;
+}
