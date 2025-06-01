@@ -1,6 +1,6 @@
 img{
-    width:400px;
-    height: 330px;
+    width:300px;
+    height: 300px;
 }
 nav{
     height: 80px;
@@ -25,24 +25,24 @@ a:hover{
 }
 
 .container{
-    width: 420px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     background-color: wheat;
     text-align: center;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border: 2px solid black;
     position:relative;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 5px 5px 5px black;
     transition: 1s;
     
     
 }
 .container:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .items{
     display: flex;
